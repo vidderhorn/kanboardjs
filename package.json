@@ -1,0 +1,24 @@
+{
+  "name": "kanboardjs",
+  "version": "1.0.0",
+  "main": "lib/kanboard.js",
+  "license": "Apache-2.0",
+  "description": "Kanboard API for JavaScript/TypeScript.",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/vidderhorn/kanboardjs.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  },
+  "scripts": {
+    "build": "tsc --paths null",
+    "clean": "rm -rf lib"
+  },
+  "dependencies": {
+    "deep-rename-keys": "^0.2.1"
+  }
+}
